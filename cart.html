@@ -7,7 +7,114 @@
         <title>Spiky Blooms</title>
     </head>
     <body class="container">
-        
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav flex-fill">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Account</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-auto">
+                        <input class="form-control line-input me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">
+                            <i class="fas fa-search search-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section id="cart" class="w-100 d-flex justify-content-start align-items-start mt-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-5 d-flex flex-column align-items-center">
+                    <figure>
+                        <img src="./assets/img/plant1.jpg" class="product-image img-fluid" alt="Product Image">
+                    </figure>
+                    <div class="d-flex justify-content-center mt-3">
+                        <figure class="mx-2">
+                            <img src="./assets/img/plant1.jpg" class="product-preview-image img-fluid" alt="Product Image">
+                        </figure>
+                        <figure class="mx-2">
+                            <img src="./assets/img/plant1.jpg" class="product-preview-image img-fluid" alt="Product Image">
+                        </figure>
+                        <figure class="mx-2">
+                            <img src="./assets/img/plant1.jpg" class="product-preview-image img-fluid" alt="Product Image">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-start align-items-start">
+                    <div class="stock mb-2">3 items left</div>
+                    <div class="product-details">
+                        <h4 class="product-title mb-3">Corsage Cactus</h4>
+                        <h3 class="product-price">$12.50</h3>
+                        <div class="add-to-cart mt-auto">
+                            <div class="px-4 d-flex justify-content-center align-items-center">
+                                <div class="plus mx-2">+</div> 
+                                <div class="quantity">1</div>
+                                <div class="minus mx-2">-</div> 
+                            </div>
+                        </div>
+                        <button class="btn btn-dark checkout-button">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="d-flex justify-content-center align-items-center mt-4">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <h5>Location</h5>
+                        <a href="" class="text-decoration-none text-dark">55278 Schinner Divide, Port Magaret, TX 76934</a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-dark">Home</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Shop</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">About</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <h5>Follow Us</h5>
+                        <a href="#" class="me-3 text-decoration-none">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="#" class="me-3 text-decoration-none">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="#" class="me-3 text-decoration-none">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <i class="fab fa-pinterest fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center py-3">
+                        <p class="mb-0">&copy; 2024 Spiky Blooms. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
         <script type="module" src="/main.js"></script>
     </body>
+    
 </html>
