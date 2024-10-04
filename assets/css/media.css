@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    #products img {
+        object-fit: contain; 
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #products {
+        margin-top: -15px !important;
+    }
+}
