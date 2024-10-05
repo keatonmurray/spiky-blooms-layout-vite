@@ -248,16 +248,21 @@
     font-size: 16px !important;
   }
 
+  #login
+  {
+    margin: 50px 0;
+  }
+
   #login form .form-control
   {
     border-radius: 50px;
-    padding: 9px 155px;
+    padding: 11px 155px;
   }
 
   #login form .login-button
   {
     border-radius: 50px !important;
-    padding: 8px;
+    padding: 11px;
     background-color: #000 !important;
     font-size: 17px;
   }
