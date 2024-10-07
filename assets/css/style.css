@@ -257,8 +257,7 @@
 
   #login form .form-control
   {
-    border-radius: 50px;
-    padding: 11px 155px;
+    width: 400px;
   }
 
   #login form .login-button
