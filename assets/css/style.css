@@ -13,6 +13,12 @@
       flex-direction: column;
   }
 
+  .btn-dark 
+  {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+
   #main {
       flex: 1;
   }
@@ -271,6 +277,34 @@
   #login .vector-bg img 
   {
     height: 525px !important;
+  }
+
+  #shop 
+  {
+    padding: 100px 5px;
+  }
+
+  #shop figure .shop-page-image
+  {
+    height: 190px !important;
+    width: 190px !important;
+    border-radius: 26px;    
+    width: auto;
+  }
+
+  #shop nav ul .pagination-next-button,
+  #shop nav ul .pagination-prev-button  
+  {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 0 !important;
+  }
+
+  #shop .apply-filter-button 
+  {
+    border-radius: 20px !important;
+    border: 0 !important;
+    padding: 8px;
   }
 
   footer 

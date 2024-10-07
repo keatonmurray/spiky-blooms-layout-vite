@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spiky Blooms</title>
+  </head>
+  <body class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-fill">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="single.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">My Account</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-auto">
+                    <input class="form-control line-input me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">
+                        <i class="fas fa-search search-icon"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section id="shop">
+        <h1 class="text-center mb-4">Hello, plant lovers.</h1>
+        
+        <br><br>
+        
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="text-center fw-500">Filter</h5>
+                        <hr>
+                        <form>
+                            <h5 class="card-title my-4 fw-500">Availability</h5>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inStock" value="in_stock">
+                                <label class="form-check-label" for="inStock">
+                                    In Stock
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="soldOut" value="sold_out">
+                                <label class="form-check-label" for="soldOut">
+                                    Sold Out
+                                </label>
+                            </div>
+                            <h5 class="card-title my-4 fw-500">Categories</h5>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inStock" value="in_stock">
+                                <label class="form-check-label" for="inStock">
+                                    Indoor Plants 
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="soldOut" value="sold_out">
+                                <label class="form-check-label" for="soldOut">
+                                    Succulents & Cacti 
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="soldOut" value="sold_out">
+                                <label class="form-check-label" for="soldOut">
+                                    Flowering Plants
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="soldOut" value="sold_out">
+                                <label class="form-check-label" for="soldOut">
+                                    Herbs
+                                </label>
+                            </div>
+                            <h5 class="card-title my-4 fw-500">Type</h5>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inStock" value="in_stock">
+                                <label class="form-check-label" for="inStock">
+                                    Perennial Plants
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="soldOut" value="sold_out">
+                                <label class="form-check-label" for="soldOut">
+                                    Annual Plants
+                                </label>
+                            </div>
+                            <h5 class="card-title my-4 fw-500">Style</h5>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inStock" value="in_stock">
+                                <label class="form-check-label" for="inStock">
+                                    Tropical Plants
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="soldOut" value="sold_out">
+                                <label class="form-check-label" for="soldOut">
+                                    Desert Plants 
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-dark mt-3 w-100 apply-filter-button">
+                                <i class="fas fa-sliders-h me-2"></i>
+                                Apply Filter
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-9 d-flex justify-content-center align-items-center all-products">
+                <div class="row">
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <figure>
+                            <img src="assets/img/product1.jpg" alt="Product Image" class="img-fluid shop-page-image">
+                        </figure>
+                        <div class="product-details text-center">
+                            <p class="product-name">Product Name</p>
+                            <p class="product-price">$19.99</p>
+                            <div class="product-rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="col-12 d-flex justify-content-end">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link pagination-prev-button" href="#" tabindex="-1" aria-disabled="true">
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link pagination-next-button" href="#">
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer class="d-flex justify-content-center align-items-center mt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <h5>Location</h5>
+                    <a href="" class="text-decoration-none text-dark">55278 Schinner Divide, Port Magaret, TX 76934</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark">Home</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Shop</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">About</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="me-3 text-decoration-none">
+                        <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="#" class="me-3 text-decoration-none">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="#" class="me-3 text-decoration-none">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <i class="fab fa-pinterest fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center py-3">
+                    <p class="mb-0">&copy; 2024 Spiky Blooms. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html> 
