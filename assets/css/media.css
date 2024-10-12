@@ -100,4 +100,9 @@
         max-width: unset !important;
         width: unset !important;
     }
+
+    #single .add-to-cart-button 
+    {
+        padding: 13px 128px !important;
+    }
 }
