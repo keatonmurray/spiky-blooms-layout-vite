@@ -60,10 +60,6 @@
 
     .stock 
     {
-        /* position: absolute !important;
-        top: 132px !important;
-        left: 50% !important;
-        transform: translate(-50%) !important; */
         display: none !important;
     }
 
@@ -72,6 +68,33 @@
         margin-top: 45px !important;
     }
 
+    #shop .product-img-container 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #shop .all-products 
+    {
+        margin-top: 55px !important;
+    }
+
+    #shop .product-price 
+    {
+        font-size: 26px !important; 
+    }
+
+    #shop .pagination-container 
+    {
+        justify-content: center !important;
+    }
+
+    #shop .product-img-container img 
+    {
+        height: 280px !important;
+        width: 280px !important;
+    }
 }
 
 @media (max-width: 767px) {
